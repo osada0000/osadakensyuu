@@ -61,6 +61,7 @@ void loop() {
     digitalWrite(3, LOW);//回生バルブ
     digitalWrite(4, LOW);//コンプレッサ吸気
     digitalWrite(5, LOW);//コンプレッサ
+    delay(1000);
   }
   Serial.print(millis());
   Serial.print(",");
