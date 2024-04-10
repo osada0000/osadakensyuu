@@ -42,7 +42,7 @@ void loop() {
   p3 = ((volt3 - 0.24) / 4.5 ) * 150 * 6.895 ; //(1psi = 6.895kPa)
 
 
-  if ( p1 < 200)
+  if ( p1 < 300)
   {
     digitalWrite(7, LOW);//シリンダバルブ
     digitalWrite(6, LOW);//供給バルブ
